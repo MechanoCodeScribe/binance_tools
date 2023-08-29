@@ -1,0 +1,4 @@
+start, Go to beginning
+strong_buy, Spot trading using strong buy strategy
+my_strategy, Spot trading using configured strategy
+cancel, Terminate dialogue
