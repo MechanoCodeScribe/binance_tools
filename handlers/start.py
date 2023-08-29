@@ -21,7 +21,7 @@ async def start_command(message: types.Message, state: FSMContext):
     Returns:
         None
     """
-    await message.answer_sticker('CAACAgIAAxkBAAIDf2TnHmtOXKiPqLobWNMHYjzhV5L5AAIzDQACQImhSq1rDlQ0SeA5MAQ')
+    await message.answer_sticker('CAACAgIAAxkBAAIN0WTuYS7q27mExOdwPZQWa-yl8baZAAJ9DAACyg9ASk_lHJFjepVqMAQ')
     await message.answer("<b>Welcome to Brian's trading tool!</b>\n"
                          "\n<b>Available commands:</b>\n"
                          "\n/start - Return to beginning\n"
