@@ -25,7 +25,7 @@ async def start_command(message: types.Message, state: FSMContext):
     await message.answer("<b>Welcome to Brian's trading tool!</b>\n"
                          "\n<b>Available commands:</b>\n"
                          "\n/start - Return to beginning\n"
-                         "\n/strong_buy - Execute the trading strategy based on 'STRONG BUY' and 'STRONG SELL' sygnals from TradingView\n"
+                         "\n/strong_buy - Execute the trading strategy based on 'STRONG BUY' and 'STRONG SELL' signals from TradingView\n"
                          "\n/my_strategy - Spot trading using previously configured custom strategy\n"
                          "\n/cancel - Use it to terminate any process", reply_markup=types.ReplyKeyboardRemove())
     await state.clear()
