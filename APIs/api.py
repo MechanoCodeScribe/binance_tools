@@ -201,6 +201,6 @@ async def strategy(message, state, buy_amt, SL=0.985, Target=1.02, open_position
                         break
 
         else:
-            await message.answer('No suitable asset found.\nNext try in 20 sec... ')
+            await message.answer("Asset doesn't suit your conditions at the moment.\nNext try in 20 sec... ")
             await asyncio.sleep(20)
             await strategy(message, state, buy_amt)
